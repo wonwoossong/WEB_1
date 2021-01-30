@@ -1,17 +1,28 @@
-<!--전체적인 형식, 한글, 링크, 타이틀, 헤더, 바디,줄뛰움,단락,사진,ul 리스트, ol 리스트, -->
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        h1{
+            color:blue;
+            text-align: center;
+            font-size: 50pt;
+        }
+        a{
+            color:red;
+        }
+    </style>
     <title>SCHEDULE</title>
     <meta charset="utf-8">
 </head>
 <body>
     <h1>Hello guys</h1>
     <img src="schedule.jpg" width="30%" height="30%">
+    <p>
     I know that you are suffured from the fxcking school schedule program.<br>Therefor, I am here now!
+    </p>
     <br>You are glad to see <strong>me</strong>. <P>I am goning to serve the <strong>SCHEDULE, TIME, DUE TIME OF THE ASSIGNMENT</strong>.</P>
     <ul>
-        <li><a href="https://www.google.com/" target="_blank">SCHEDULE</a></li>
+        <li><a href="schedule.html" target="_blank">SCHEDULE</a></li>
         <li>TIME</li>
         <li>DUE TIME OF ASSIGNMENT</li>
     </ul>
@@ -21,5 +32,24 @@
         <li>TIME</li> 
         <li>DUE TIME OF ASSIGNMENT</li>
     </ol>
+    <p><div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://schedule-2.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
 </body>
 </html> 
